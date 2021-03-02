@@ -2,6 +2,8 @@ package main;
 
 import java.util.Scanner;
 
+import member.Member;
+
 public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("main Ω√¿€");
@@ -16,6 +18,8 @@ public class MainClass {
 			case 1:
 				break;
 			case 2:
+				Member m = new Member();
+				m.member();
 				break;
 			}
 		}
