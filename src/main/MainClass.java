@@ -2,7 +2,11 @@ package main;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 import login.Login;
+=======
+import member.Member;
+>>>>>>> 94cb2667671cf38d619cdbfa8e7e05ed515c7549
 
 public class MainClass {
 	public static void main(String[] args) {
@@ -20,6 +24,8 @@ public class MainClass {
 				lo.login();
 				break;
 			case 2:
+				Member m = new Member();
+				m.member();
 				break;
 			}
 		}
