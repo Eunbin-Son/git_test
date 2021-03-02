@@ -1,22 +1,18 @@
 package main;
 
 import java.util.Scanner;
-
-<<<<<<< HEAD
 import login.Login;
-=======
 import member.Member;
->>>>>>> 94cb2667671cf38d619cdbfa8e7e05ed515c7549
 
 public class MainClass {
 	public static void main(String[] args) {
-		System.out.println("main ½ÃÀÛ");
-		// kim - ·Î±×ÀÎ°ü·Ã ±â´É ¸¸µå¼¼¿ä
-		// cho - È¸¿ø °ü¸® ±â´ÉÀ» ¸¸µå¼¼¿ä
+		System.out.println("main ì‹œì‘");
+		// kim - ë¡œê·¸ì¸ê´€ë ¨ ê¸°ëŠ¥ ë§Œë“œì„¸ìš”
+		// cho - íšŒì› ê´€ë¦¬ ê¸°ëŠ¥ì„ ë§Œë“œì„¸ìš”
 		Scanner input = new Scanner(System.in);
 		int num;
 		while(true) {
-			System.out.println("1.·Î±×ÀÎ 2.È¸¿ø°ü¸®");
+			System.out.println("1.ë¡œê·¸ì¸ 2.íšŒì›ê´€ë¦¬");
 			num = input.nextInt();
 			switch(num) {
 			case 1:
