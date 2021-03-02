@@ -1,13 +1,7 @@
 package member;
-<<<<<<< HEAD
 //cho
 public class Member {
-
-=======
-
-public class Member {
 	public void member() {
-		System.out.println("È¸¿ø°ü¸® ±â´É ¿Ï¼º");
+		System.out.println("ÃˆÂ¸Â¿Ã¸Â°Ã¼Â¸Â® Â±Ã¢Â´Ã‰ Â¿ÃÂ¼Âº");
 	}
->>>>>>> cho
 }
